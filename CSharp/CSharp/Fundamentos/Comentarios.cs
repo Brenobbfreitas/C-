@@ -11,14 +11,14 @@ namespace CSharp.Fundamentos
     /// </summary>
     internal class Comentarios
     {
-        public static void Executar(int a) {
+        public static void Executar() {
             // Cuidado com os comentarios desnecessários
             Console.WriteLine("Código claro é sempre melhor");
             /*
-             * Esse é um comentário 
+             * esse é um comentário 
              * de múltiplas linhas...
              */
-            Console.WriteLine("O C# tem o XML Comments")
+            Console.WriteLine("O C# tem o XML Comments");
         }
     }
 }
