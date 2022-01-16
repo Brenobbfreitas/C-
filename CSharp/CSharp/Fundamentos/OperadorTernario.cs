@@ -11,7 +11,7 @@ namespace CSharp.Fundamentos
         public static void Executar() {
             var nota = 7.0;
             var resultado = nota >= 7 ? "Aprovado" : "Reprovado"; // verifica -> verdade : Falso
-
+            Console.WriteLine(resultado);
         }
     }
 }
