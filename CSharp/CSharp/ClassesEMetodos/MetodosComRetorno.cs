@@ -43,16 +43,30 @@ namespace CSharp.ClassesEMetodos
             Console.WriteLine(memoria);
             return this;
         }
-    }
-    internal class MetodosComRetorno
-    {
-        public static void Executar() {
-            var calculadoraComun = new CalculadoraComum();
-            var resultado = calculadoraComun.Somar(5, 2);
-            Console.WriteLine(resultado);
 
-            Console.WriteLine(calculadoraComun.Subtrair(9, 5));
-            Console.WriteLine(calculadoraComun.Multiplicar(9, 6));
+        public int Resultado() {
+            return memoria;
         }
+    }
+        internal class MetodosComRetorno
+        {
+            public static void Executar() {
+                var calculadoraComun = new CalculadoraComum();
+                var resultado = calculadoraComun.Somar(5, 2);
+
+                Console.WriteLine(resultado);
+                Console.WriteLine(calculadoraComun.Subtrair(9, 5));
+                Console.WriteLine(calculadoraComun.Multiplicar(9, 6));
+
+
+                var calculadoraCadeia = new CalculadoraCadeia();
+                calculadoraCadeia.Somar(3).Multiplicar(3).Imprimir().Limpar().Imprimir();
+
+
+                resultado = calculadoraCadeia.Somar(3).Multiplicar(4).Resultado();
+                Console.WriteLine(resultado);
+
+            
+            }
     }
 }
