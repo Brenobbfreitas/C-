@@ -11,7 +11,7 @@ namespace CSharp.ClassesEMetodos
     {
         public string Nome;
         public double Preco;
-        public static double Desconto = 0.1; //após definir como valor estatico 
+        public static double Desconto = 0.1; //após definir como valor estatico ele deixa de pertencer a instancia e vira da classe
 
         public Produto(string nome, double preco, double desconto) {
             Nome = nome;
