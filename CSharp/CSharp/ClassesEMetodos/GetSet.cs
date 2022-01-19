@@ -71,7 +71,7 @@ namespace CSharp.ClassesEMetodos
             moto2.SetMarca("Honda");
             moto2.SetCilindrada(150);
 
-            Console.WriteLine(moto2.GetMarca()+" "+moto2.GetModelo()+" "+moto2.GetCilindrada() +);
+            Console.WriteLine(moto2.GetMarca()+" "+moto2.GetModelo()+" "+moto2.GetCilindrada());
         }
     }
 }
