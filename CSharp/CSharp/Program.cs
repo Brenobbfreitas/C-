@@ -50,7 +50,10 @@ namespace CursoCSharp {
                 {"Props - Classes e Metodos", Props.Executar },
                 {"Readonly - Classes e Metodos", Readyonly.Executar },
                 {"Enumerações - Classes e Metodos", Enumeracoes.Executar },
-                {"Struct - Classes e Metodos", Struct.Executar },
+                {"Struct - Classes e Metodos", ExemploStruct.Executar },
+                {"Struct vs Classes - Classes e Metodos", StructVsClasse.Executar },
+                {"Valor vs Referencia - Classes e Metodos", ValorVsReferencia.Executar },
+                {"Parametros por Referencia - Classes e Metodos", ParametrosPorReferencia.Executar },
                 
 
             });

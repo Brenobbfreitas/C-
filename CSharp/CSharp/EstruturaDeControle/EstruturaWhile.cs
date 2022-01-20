@@ -22,7 +22,7 @@ namespace CSharp.EstruturaDeControle
             while (tentativaRestante > 0 && !numeroEncontrado) {
                 Console.WriteLine("Insira seu palpite");
                 string entrada = Console.ReadLine();
-                int.TryParse(entrada, out palpite);
+                int.TryParse(entrada, out palpite); // out passa o valor por referencia
 
                 tentativasAtuais++;
                 tentativaRestante--;
