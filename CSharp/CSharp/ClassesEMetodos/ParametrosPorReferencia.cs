@@ -8,7 +8,7 @@ namespace CSharp.ClassesEMetodos
 {
     internal class ParametrosPorReferencia
     {
-        public static void AlterarRef(ref int numero) {
+        public static void AlterarRef(ref int numero) { //não podemos usar um valor padrão associado ao Ref ou o OUT
             numero = numero + 1000;
         }
 
