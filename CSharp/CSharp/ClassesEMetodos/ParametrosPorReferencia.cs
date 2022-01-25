@@ -8,20 +8,21 @@ namespace CSharp.ClassesEMetodos
 {
     internal class ParametrosPorReferencia
     {
-        public static void AlterarRef(int numero) {
+        public static void AlterarRef(ref int numero) {
             numero = numero + 1000;
         }
 
-        public static void AlterarOut(int numero) {
+        public static void AlterarOut(out int numero) {
+            numero = 0;
             numero = numero + 15;
         }
         public static void Executar() {
             int a = 3;
-            AlterarOut(a);
+            AlterarRef(ref a); //chama o metodo AlterarRef e tem a referencia de numero
             Console.WriteLine(a);
 
-            int b = 2;
-            AlterarOut(b);
+            //int b; //metodo out n recebe o valor passado; ele n recebe diretamente por parametro
+            AlterarOut(out int b); // menos bugs
             Console.WriteLine(b);
         }
     }
