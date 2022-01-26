@@ -19,6 +19,25 @@ namespace CSharp.Colecoes
             foreach (string s in alunos) {
                 Console.WriteLine(s);
             }
+
+            double somatorio = 0;
+            double[] notas = { 9.4,7.8,9.8,6.7};
+
+            foreach (var nota in notas) {
+                somatorio += nota;
+            }
+
+            for(int i = 0; i < notas.Length; i++) {
+                var valor = notas[i];
+                Console.WriteLine($"SUA NOTA:{valor}");
+            }
+
+            double media = somatorio / notas.Length;
+            Console.WriteLine($"SUA MEDIA ESCOLAR:{media}");
+
+            char[] letras = {'A', 'B', 'C', 'D', 'E' };
+            string palavra = new string(letras);
+            Console.WriteLine(palavra);
         }
     }
 }
