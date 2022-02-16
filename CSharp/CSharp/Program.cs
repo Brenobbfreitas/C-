@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using CSharp.OO;
 using CSharp.EstruturaDeControle;
 using CSharp.Fundamentos;
 using CSharp.ClassesEMetodos;
@@ -67,6 +67,13 @@ namespace CursoCSharp {
                 {"Igualdade - Coleções", Igualdade.Executar},
                 {"Stack - Coleções", ColecoesStack.Executar},
                 {"Dictionary - Coleções", ColecoesDictionary.Executar},
+                {"Dictionary - Coleções", ColecoesDictionary.Executar},
+
+                //OO
+                {"Herança - OO", Heranca.Executar},
+                {"Construtor This - OO", ConstrutorThis.Executar},
+                {"Encapsulamento - OO", Encapsulamento.Executar},
+
             });
 
             central.SelecionarEExecutar();

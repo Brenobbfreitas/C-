@@ -22,6 +22,8 @@ namespace CSharp.Colecoes
                 this.Nome = nome;
                 this.Preco = preco;
             }
+
+
             /// faz uma filtragem de para o Equals, performatico
             public override int GetHashCode() {
             return Nome.Length;

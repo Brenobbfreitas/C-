@@ -16,7 +16,14 @@ namespace CSharp.Colecoes {
 			foreach (var item in pilha) {
                 global::System.Console.WriteLine($"{item} ");
         }
-
+			// POP remove o primeiro elemento adicionado
             global::System.Console.WriteLine($"\npop: {pilha.Pop()}");
-	}
+
+			foreach (var item in pilha) {
+				global::System.Console.WriteLine($"{item} ");
+			}
+
+			// Peek apenas pega o valor
+            global::System.Console.WriteLine($"\nPeek: {pilha.Peek()}");
+		}
 }
