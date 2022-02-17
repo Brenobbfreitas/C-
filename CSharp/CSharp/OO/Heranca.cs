@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CSharp.OO
+namespace CSharp.OO;
 {
 	/// <summary>
 	/// Qualquer classe que herdar de carro vai receber os metodos asseguir 

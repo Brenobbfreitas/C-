@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CSharp.OO
+namespace CSharp.OO;
 {
     public class Animal
     {
